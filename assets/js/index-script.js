@@ -50,8 +50,8 @@ const mostrarArticulos = () => {
                   <div class="col-8">
                       <p class="text-justify  ">${i.descripcion}</p>
                   </div>
-                  <div class="col-4">
-                      <img src="./uploads/${i.imagen}" style="width:100%; height:auto; max-height:400px;" alt="">
+                  <div class="col-4 text-center">
+                      <img src="./uploads/${i.imagen}" style="max-width: 100%; width:auto; height:200px;" alt="">
                   </div>
               </div>
     

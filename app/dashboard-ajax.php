@@ -120,6 +120,8 @@ switch ($_POST['fnc']) {
                     echo generarRespuesta('error', 'El tipo de archivo no es válido (Solo PNG, JPG, JPEG)');
                     die();
                 }
+            }else{
+                $imagen = '';
             }
 
             $query = "INSERT INTO articulo(titulo, descripcion, imagen, archivo, fecha_creacion, usuario_id, active)

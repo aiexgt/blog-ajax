@@ -47,7 +47,7 @@ const mostrarArticulos = () => {
                     <td>${moment(i.fecha_creacion).format("DD/MM/YYYY HH:mm A")}</td>
                     <td onclick="mostrarArchivo('${i.archivo}')" class="text-primary pointer">${i.archivo || ""}</td>
                     <td onclick="mostrarArchivo('${i.imagen}')" class="text-primary pointer">${i.imagen || ""}</td>
-                    <td><button class="btn btn-danger" onclick="eliminarArticulo(${
+                    <td><button class="btn btn-danger bg-bac" onclick="eliminarArticulo(${
                       i.id
                     })"><i class="bi bi-trash"></i></button></td>
                 </tr>

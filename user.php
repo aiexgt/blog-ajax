@@ -62,7 +62,10 @@ require_once("./components/session/component.php");
     </div>
 
     <div class="row bg-bac p-1 ps-4 pe-4 text-white">
-        <div class="offset-8 col-4 text-end">
+        <div class="col-2">
+            <small>Bienvenido, <?php echo $_SESSION['nombre'] . ' ' . $_SESSION['apellidos'] ?></small>
+        </div>
+        <div class="offset-6 col-4 text-end">
             <button class="btn btn-sm btn-outline-light" id="btn_blog">Ver Contenido</button>
             <button class="btn btn-sm btn-outline-light" id="btn_login">Cerrar Sesión</button>
         </div>

@@ -43,7 +43,7 @@ const mostrarUsuarios = () => {
                     <td>${i.apellidos || ""}</td>
                     <td>${i.email || ""}</td>
                     <td>${i.usuario || ""}</td>
-                    <td><button class="btn btn-danger" onclick="eliminarUsuario(${
+                    <td><button class="btn btn-danger bg-bac" onclick="eliminarUsuario(${
                       i.id
                     })"><i class="bi bi-trash"></i></button></td>
                 </tr>
